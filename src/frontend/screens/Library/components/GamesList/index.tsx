@@ -89,6 +89,7 @@ const GamesList = ({
           <span>{t('game.status', 'Status')}</span>
           <span>{t('game.store', 'Store')}</span>
           <span>{t('wine.actions', 'Action')}</span>
+          {/* TODO: `Add IGDB game score` */}
         </div>
       )}
       {!!library.length &&
